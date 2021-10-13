@@ -1,0 +1,154 @@
+html {
+  font-size: 16px;
+  font-family: 'Verdana';
+  background-color: #137e85;
+}
+
+body {
+  width: 55%;
+}
+
+#centralPanel, #centralPanelMenu{
+  width: 100%;
+}
+
+body, #centralPanel, #centralPanelMenu {
+  margin: 0 auto;
+  background-color: #a1b7cf;
+  border: 2px solid black;
+}
+
+body {
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #00959f;
+  text-shadow: 3px 3px 1px black;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  padding: 0 20px 20px 20px;
+  line-height: 2;
+  letter-spacing: 2px;
+}
+
+li {
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+#centralPanelMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#Primary_Vote_Panel{
+  padding: 0 20px 20px 20px;
+  border: 1px solid black;
+  font-size: 30px;
+  height:250px;
+  text-align: center;
+}
+
+  #Secondary_Vote_Panel{
+  padding: 10px 10px;
+  border: 1px solid black;
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#Display_Results_Panel_1st {
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-bottom-style: none;
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+  #Display_Results_Panel_2nd {
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-top-style: none;
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+   
+
+button {
+  background-color: #2d7097;
+  color: rgba(223, 228, 231, 0.904);
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  cursor:pointer;
+}
+
+button:hover {
+  background-color: #0d75bb4f;
+}
+
+#Vote_Button, #Share_Button{
+  position: relative;
+  left: 10px;
+}
+
+/* NAV MENU */
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #137e85;
+  text-align:center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow: auto; 
+}
+
+nav a {
+  display: block;
+  color: rgba(223, 228, 231, 0.904);
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #2d7097;
+  color: rgb(255, 255, 255);
+}
+
+nav a:active {
+  background-color: #7175af;
+  color: white;
+}
+
